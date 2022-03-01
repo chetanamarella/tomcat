@@ -7,7 +7,7 @@ pipeline {
   stages {
     stage ('Clone git') {
       steps {
-        git 'https://github.com/doct15/example-tomcat-war.git'
+        git 'https://github.com/daticahealth/java-tomcat-maven-example.git'
       }
     }
     
